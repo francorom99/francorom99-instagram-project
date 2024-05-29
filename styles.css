@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+	background: lightgrey;
+	font-family: "PT Sans";
+}
+.instagram-header {
+	background: white;
+	height: 50px;
+    margin-bottom: 10px;
+}
+
+.instagram-box {
+    background: white;
+    width: 400px;
+    height: auto;
+    border-radius: 6px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.instagram-body img {
+	width: 400px;
+	height: 350px;
+	margin-right: 10px;
+	margin-top: 10px;
+    object-fit: cover;
+
+}
+.instagram-posts h3 {
+    text-align: left;
+    color: red;
+    font-size: 12px;
+}
+.instagram-header h1 {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+	width: 400px;
+	margin: 0px;
+    margin-left: 40%;
+}
+
+.instagram-posts p {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.instagram-body {
+	margin: auto;
+
+}
+p {
+    padding-bottom: 10px;
+	font-size: 15px;
+}
+.hours-ago p {
+    font-size: 8px;
+    color: grey;
+} 
+.hours-ago a {
+    font-size: 8px;
+    text-decoration: none;
+    color: black;
+}  
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; 
+}
+.post-header a {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+.post-header h2 {
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+.post-header span {
+    font-size: 10px;
+    color: grey;
+}
+.fa-regular {
+    padding: 10px;
+    color: black;
+    font-size: 15px;
+}
